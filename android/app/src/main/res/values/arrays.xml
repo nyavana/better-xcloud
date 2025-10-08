@@ -1,0 +1,48 @@
+<resources>
+    <string-array name="kernel_entries">
+        <item>Native (Android)</item>
+        <item>Web (Site default)</item>
+    </string-array>
+    <string-array name="kernel_entry_values">
+        <item>native</item>
+        <item>web</item>
+    </string-array>
+
+    <string-array name="keycode_entries">
+        <item>@string/keycode_button_a</item>
+        <item>@string/keycode_button_b</item>
+        <item>@string/keycode_button_x</item>
+        <item>@string/keycode_button_y</item>
+        <item>@string/keycode_button_lb</item>
+        <item>@string/keycode_button_rb</item>
+        <item>@string/keycode_button_lt</item>
+        <item>@string/keycode_button_rt</item>
+        <item>@string/keycode_button_ls</item>
+        <item>@string/keycode_button_rs</item>
+        <item>@string/keycode_button_view</item>
+        <item>@string/keycode_button_menu</item>
+        <item>@string/keycode_dpad_up</item>
+        <item>@string/keycode_dpad_down</item>
+        <item>@string/keycode_dpad_left</item>
+        <item>@string/keycode_dpad_right</item>
+    </string-array>
+
+    <string-array name="keycode_values">
+        <item>96</item>
+        <item>97</item>
+        <item>99</item>
+        <item>100</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>109</item>
+        <item>108</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+</resources>
