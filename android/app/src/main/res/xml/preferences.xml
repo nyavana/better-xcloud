@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="controller.kernel"
+        android:title="@string/pref_kernel_title"
+        android:entries="@array/kernel_entries"
+        android:entryValues="@array/kernel_entry_values"
+        android:defaultValue="native"
+        android:useSimpleSummaryProvider="false" />
+
+    <PreferenceCategory
+        android:key="controller.mapping"
+        android:title="@string/pref_category_mapping">
+
+        <ListPreference
+            android:key="controller.button.a"
+            android:title="@string/controller_button_a"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="96" />
+
+        <ListPreference
+            android:key="controller.button.b"
+            android:title="@string/controller_button_b"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="97" />
+
+        <ListPreference
+            android:key="controller.button.x"
+            android:title="@string/controller_button_x"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="99" />
+
+        <ListPreference
+            android:key="controller.button.y"
+            android:title="@string/controller_button_y"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="100" />
+
+        <ListPreference
+            android:key="controller.button.lb"
+            android:title="@string/controller_button_lb"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="102" />
+
+        <ListPreference
+            android:key="controller.button.rb"
+            android:title="@string/controller_button_rb"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="103" />
+
+        <ListPreference
+            android:key="controller.button.lt"
+            android:title="@string/controller_button_lt"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="104" />
+
+        <ListPreference
+            android:key="controller.button.rt"
+            android:title="@string/controller_button_rt"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="105" />
+
+        <ListPreference
+            android:key="controller.button.view"
+            android:title="@string/controller_button_view"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="109" />
+
+        <ListPreference
+            android:key="controller.button.menu"
+            android:title="@string/controller_button_menu"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="108" />
+
+        <ListPreference
+            android:key="controller.button.ls"
+            android:title="@string/controller_button_ls"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="106" />
+
+        <ListPreference
+            android:key="controller.button.rs"
+            android:title="@string/controller_button_rs"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="107" />
+
+        <ListPreference
+            android:key="controller.button.dpad_up"
+            android:title="@string/controller_button_dpad_up"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="19" />
+
+        <ListPreference
+            android:key="controller.button.dpad_down"
+            android:title="@string/controller_button_dpad_down"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="20" />
+
+        <ListPreference
+            android:key="controller.button.dpad_left"
+            android:title="@string/controller_button_dpad_left"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="21" />
+
+        <ListPreference
+            android:key="controller.button.dpad_right"
+            android:title="@string/controller_button_dpad_right"
+            android:entries="@array/keycode_entries"
+            android:entryValues="@array/keycode_values"
+            android:defaultValue="22" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
